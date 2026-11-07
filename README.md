@@ -15,14 +15,14 @@ conformance level, they implement.
 ## Versioning
 
 The standard is versioned like any other artifact: each published, immutable version lives
-under `instances/vN/`. `instances/v1` is the first, currently **Draft**, version. See
-[`instances/v1/10-versioning.md`](instances/v1/10-versioning.md) for the compatibility and
+under `versions/vN/`. `versions/v1` is the first, currently **Draft**, version. See
+[`versions/v0.0.1/10-versioning.md`](versions/v0.0.1/10-versioning.md) for the compatibility and
 deprecation policy, and for when a change belongs in `v1` (errata) versus a new `v2` (breaking
 revision).
 
 ## Start here
 
-Read [`instances/v1/README.md`](instances/v1/README.md).
+Read [`versions/v0.0.1/README.md`](versions/v0.0.1/README.md).
 
 ## Git
 
@@ -34,4 +34,4 @@ push or other Git operation was performed here while writing this standard.
 Add an `AGENTS.md` here documenting the project map, dependencies, CI path filters and publish
 triggers for the `Contracts`/`Runtime`/`DesignTime` packages that implement this standard, per
 the monorepo convention illustrated by QuietCli2's
-[`AGENTS.md`](../../PoSh/FrenchExDev/QuietCliEcosystem/FrenchExDev2.QuietCli.PoSh/AGENTS.md).
+[`AGENTS.md`](https://github.com/FrenchExDev2/QuietCli.PoSh/blob/develop/AGENTS.md).
